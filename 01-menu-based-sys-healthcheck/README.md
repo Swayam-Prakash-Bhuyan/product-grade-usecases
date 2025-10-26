@@ -1,6 +1,3 @@
-Perfect ✅ You already have a well-structured **Menu-Based System Health Check project**, with individual scripts for Disk, CPU, Memory, and Service monitoring — and an automated reporting script that sends results via email.
-
-Here’s a **comprehensive README.md** for your project that documents **everything** — setup, usage, email configuration, and scheduling.
 
 ---
 

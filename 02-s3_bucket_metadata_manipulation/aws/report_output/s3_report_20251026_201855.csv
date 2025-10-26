@@ -1,0 +1,12 @@
+name,region,createdOn,policies,versioning,sizeGB,tags.environment,tags.team,Recommendation,DeleteQueue,ArchiveGlacier,EstimatedCostUSD
+prod-data,us-west-2,2023-10-12,"[{'type': 'read', 'appliedTo': ['users', 'services']}, {'type': 'write', 'appliedTo': ['services']}]",True,120.0,prod,analytics,Delete,True,False,2.76
+dev-app-logs,us-east-1,2024-02-15,"[{'type': 'read', 'appliedTo': ['users']}]",False,10.0,dev,engineering,Archive,False,True,0.22999999999999998
+backup,eu-central-1,2022-11-30,"[{'type': 'read', 'appliedTo': ['services']}]",True,80.0,prod,ops,Cleanup,False,False,1.8399999999999999
+audit-logs,ap-southeast-1,2024-01-10,"[{'type': 'write', 'appliedTo': ['admin']}]",True,50.0,prod,security,None,False,False,1.15
+test-results,us-west-1,2024-06-01,"[{'type': 'read', 'appliedTo': ['users', 'services']}]",False,15.0,test,qa,Archive,False,True,0.345
+old-backups,us-east-2,2020-08-15,[],True,200.0,prod,ops,Delete,True,False,4.6
+staging-resources,eu-west-1,2023-12-25,"[{'type': 'read', 'appliedTo': ['users']}, {'type': 'write', 'appliedTo': ['services']}]",False,30.0,staging,development,Archive,False,True,0.69
+app-analytics,ap-northeast-1,2021-03-18,"[{'type': 'read', 'appliedTo': ['services']}]",True,250.0,prod,analytics,Delete,True,False,5.75
+raw-data,us-west-2,2023-06-20,[],False,90.0,dev,data-engineering,Cleanup,False,False,2.07
+compliance-data,ca-central-1,2022-01-01,"[{'type': 'read', 'appliedTo': ['auditors']}, {'type': 'write', 'appliedTo': ['admin']}]",True,300.0,prod,compliance,Delete,True,False,6.8999999999999995
+test-bucket-sre-demo,us-east-1,2025-10-25,[],True,0.0,,,Archive,False,True,0.0

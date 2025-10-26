@@ -1,0 +1,4 @@
+# Ignore Python virtual environment
+s3bucket-optimisation/
+*.pyc
+__pycache__/
