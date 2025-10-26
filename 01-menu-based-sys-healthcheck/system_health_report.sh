@@ -24,21 +24,21 @@ echo
 
 # --- Disk Usage ---
 echo "💾 DISK USAGE:"
-bash /opt/syshealth/check_disk.sh
+bash /opt/syshealth/check_disk_usage.sh
 echo
 echo "-----------------------------------------------"
 echo
 
 # --- Running Services ---
 echo "⚙️ RUNNING SERVICES:"
-bash /opt/syshealth/monitor_services.sh
+bash /opt/syshealth/monitor_runnig_system.sh
 echo
 echo "-----------------------------------------------"
 echo
 
 # --- Memory Usage ---
 echo "🧠 MEMORY USAGE:"
-bash /opt/syshealth/memory_check.sh
+bash /opt/syshealth/asses_memory_usage.sh
 echo
 echo "-----------------------------------------------"
 echo
