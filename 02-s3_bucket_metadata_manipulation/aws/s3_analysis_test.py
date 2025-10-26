@@ -1,3 +1,7 @@
+# Certainly this one is something 
+# I tested while creating the actual file and it's 
+# the goto one for low level testing and if you don't need csv or charts
+
 import boto3
 from datetime import datetime, timedelta, timezone
 
