@@ -3,7 +3,7 @@
 # the goto one for low level testing and if you don't need csv or charts
 
 import boto3
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 
 s3 = boto3.client("s3")
 buckets = s3.list_buckets().get("Buckets", [])

@@ -154,18 +154,6 @@ plt.tight_layout()
 plt.savefig(os.path.join(REPORT_DIR,f"s3_cost_chart_{ts}.png"))
 plt.close()
 
-# -------------------------------
-# Generate Simple Text Report (Like Your Example)
-# -------------------------------
-# text_report = []
-# for _, row in report_df.iterrows():
-#     if row["Recommendation"] != "None":  # Only show buckets with recommendations
-#         cost = row["EstimatedCostUSD"]
-#         text_report.append(f"${cost:.2f}")
-#         text_report.append(f"{row['Recommendation']};")
-#         text_report.append("")  # Empty line between entries
-
-
 print(f"\n✅ Full report generated with {len(report_df)} buckets analyzed!")
 print(f"✅ {len([r for r in report_df['Recommendation'] if r != 'None'])} buckets have recommendations")
 print(f"✅ Files saved in: {REPORT_DIR}")
